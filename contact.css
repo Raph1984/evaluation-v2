@@ -31,4 +31,16 @@
         grid-area: footer;
         background: #a5d7f1;
     }
+  
+    @media screen and (max-width:768px){
+      .container{
+        height: 100vh;
+    grid-template-columns:1fr;
+    grid-template-rows: 1.5fr 8fr 1.5fr;
+    grid-template-areas: "header"
+    "form"
+    "footer";
+      }
+    }
+      
     
