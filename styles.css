@@ -29,7 +29,7 @@ body{
     grid-area:header; 
     margin: 0;
     height: 150px;
-    background-image: url(/img/intro.jpg); 
+    background-image: url("/img/intro.jpg"); 
     background-size: 30%; 
     background-repeat: no-repeat;
     background-position: center;
