@@ -25,11 +25,10 @@ body{
     }
     
     header{
-    background: #79a2e0;
+    background: url(../img/intro.jpg), #79a2e0;
     grid-area:header; 
     margin: 0;
     height: 150px;
-    background-image: url(../img/intro.jpg);
     background-size: 30%; 
     background-repeat: no-repeat;
     background-position: center;
