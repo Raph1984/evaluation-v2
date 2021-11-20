@@ -6,7 +6,8 @@ body{
 
 .container{
     display:grid;
-    height:100vh;
+    height:100%;
+    width :100%;
     /* Nombres colonnes */
     grid-template-columns:1fr 1fr 1fr 1fr;
     /* Nombres de lignes */
@@ -57,6 +58,8 @@ body{
     /* Version responsive */
     @media screen and (max-width:768px){
       .container{
+    height:100%;
+    width :100%
     grid-template-columns:1fr;
     grid-template-rows:1.5fr 0.5fr 1.5fr 2fr 2fr 1fr;
     grid-template-areas:"header"
