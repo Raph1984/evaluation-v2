@@ -9,7 +9,6 @@ body{
 .container{
     display:grid;
     height:100%;
-    width :100%;
     /* Nombres colonnes */
     grid-template-columns:1fr 1fr 1fr 1fr;
     /* Nombres de lignes */
@@ -62,11 +61,8 @@ body{
       body{
   margin: 0;
   padding: 0;
-  height:100vh ;
-  width: 100vw;
 }
       .container{
-     width:90%;
     height:100vh;
     grid-template-columns:1fr;
     grid-template-rows:1.5fr 0.5fr 1.5fr 2fr 2fr 1fr;
