@@ -1,14 +1,12 @@
 body{
   margin: 0;
   padding: 0;
-  height:100vh ;
-  width: 100vw;
 }
 
 
 .container{
     display:grid;
-    height:100%;
+    height:100vh;
     /* Nombres colonnes */
     grid-template-columns:1fr 1fr 1fr 1fr;
     /* Nombres de lignes */
@@ -58,12 +56,7 @@ body{
     }
     /* Version responsive */
     @media screen and (max-width:768px){
-      body{
-  margin: 0;
-  padding: 0;
-}
       .container{
-    height:100vh;
     grid-template-columns:1fr;
     grid-template-rows:1.5fr 0.5fr 1.5fr 2fr 2fr 1fr;
     grid-template-areas:"header"
