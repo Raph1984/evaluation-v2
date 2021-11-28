@@ -20,19 +20,23 @@ body{
     
 
   header{
-    background: #79a2e0;
+    background: #8cbdb9;
     text-align: center; 
     grid-area: header;
     }
 
     form{
         grid-area: form;
-        background: rgb(213, 234, 240);
+        background: #e8eceb;
     }
 
     footer{
         grid-area: footer;
-        background: #a5d7f1;
+        background: #2d3e4e;
+    }
+
+    footer a{
+      color: #e8eceb;
     }
   
     @media screen and (max-width:768px){
