@@ -23,31 +23,32 @@ body{
     text-align:center;
     }
     header{
-    background:#79a2e0;
+    background:#8cbdb9;
     grid-area:header;
     }
     nav{
       grid-area: nav;
     }
     #contenu1{
-    background:#74c3ee;
+    background:#e09e50;
     grid-area:contenu1;
     }
     #contenu2{
-    background:#74c3ee;
+    background:#8cbdb9;
     grid-area:contenu2;
     }
     #contenu3{
-    background:#74c3ee;
+    background:#8cbdb9;
     grid-area:contenu3;
     }
     #contenu4{
-    background:#74c3ee;
+    background:#e09e50;
     grid-area:contenu4;
     }
 
     footer{
-      background: #a5d7f1;
+      background: #2d3e4e;
+      color: #e8eceb;
       grid-area: footer;
     }
 
