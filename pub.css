@@ -57,10 +57,6 @@ body{
   }
     /* Version responsive */
     @media screen and (max-width:768px){
-      body{
-  margin: 0;
-  padding: 0;
-}
       .container{
     grid-template-columns:1fr;
     grid-template-rows:1.5fr 0.5fr 2fr 2fr 2fr 2fr 1.5fr;
@@ -72,6 +68,18 @@ body{
     "contenu4"
     "footer";
       }
+     #contenu1{
+        background:#e09e50;
+        }
+     #contenu2{
+        background:#8cbdb9;
+        }
+     #contenu3{
+        background:#e09e50;
+        }
+     #contenu4{
+        background:#8cbdb9;
+        } 
     }
     
     
