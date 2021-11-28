@@ -25,7 +25,7 @@ body{
     }
     
     header{
-    background-color: #79a2e0;
+    background-color: #8cbdb9;
     grid-area:header; 
     margin: 0;
     height: 150px;
@@ -39,21 +39,25 @@ body{
     grid-area:nav;
     }
     #intro{
-        background: #77bde2;
+        background: #e8eceb;
         grid-area: intro;
     }
     #contenu1{
-    background:#149be4;
+    background:#8cbdb9;
     grid-area:contenu1;  
     }
     #contenu2{
-    background:#149be4;
+    background:#e09e50;
     grid-area:contenu2;
     }
     footer{
-    background:#a5d7f1;
+    background:#2d3e4e;
     grid-area:footer;
     }
+    footer a{
+     color: #e8eceb;
+    }
+
     /* Version responsive */
     @media screen and (max-width:768px){
       .container{
